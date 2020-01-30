@@ -1,0 +1,42 @@
+ .field {
+    width: 100%;
+    display: flex;
+
+} 
+
+.template-tabset{
+    width: 80%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+}
+
+.tabset-item {
+    float: left;
+    width: 30%;
+
+}
+/* .active .tabset-item-title {
+    /* border: 1px solid red; 
+    color: green;
+}
+.active .tabset-item-title {
+    /* border: 1px solid red; 
+    color: red;
+} */
+
+.tabset-item-content {
+    display: none;
+    width: 100%;
+
+}
+
+.active .tabset-item-content {
+    display: block;
+    height: 200px;
+} 
+.btn {
+    width: 10%;
+    height: 50px;
+}
